@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+		<PackageReference Include="Autofac" Version="8.0.0" />
+		<PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.1" />
+		<PackageReference Include="ZYC.AutomationTools" Version="1.2.3-CI-2024-10-16-11-50-11" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<None Include="patch\\**\\*.*"></None>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+name: release
+
+on:
+  workflow_dispatch:
+  push:
+  
+jobs:
+  build:
+
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: dotnet build
+        env:
+          RELEASE_VERSION: ${{ github.ref_name }}
