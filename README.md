@@ -4,7 +4,7 @@ Used to fix the bug that Unity License cannot be loaded normally.
 
 ## Build status
 
-[![Release](https://github.com/ichirokogawa/Unity.License.Patcher/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/ichirokogawa/Unity.License.Patcher/actions/workflows/release.yml)
+[![release](https://github.com/ichirokogawa/Unity.License.Patcher/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/ichirokogawa/Unity.License.Patcher/actions/workflows/release.yml)
 
 ## Support environment
 
